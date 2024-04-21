@@ -76,6 +76,12 @@ export default async function seed() {
       total: 1400.0,
     },
     {
+      userId: 1,
+      orderDate: new Date("2024-03-20 10:00:00"),
+      status: "Shipped",
+      total: 300.0,
+    },
+    {
       userId: 2,
       orderDate: new Date("2024-03-20 12:30:00"),
       status: "Processing",
